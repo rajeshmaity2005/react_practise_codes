@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+  }
+  
+  body{
+  background-color: black;
+  color: aliceblue;
+}
+
+form{
+  background-color: rgb(33, 33, 33);
+  padding: 20px 30px;
+  display: flex;
+  gap: 10px;
+  border: none;
+  text-decoration: none;
+}
+
+
+
+button{
+  padding: 10px 20px;
+  background-color: greenyellow;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+button:active{
+  scale: 0.95;
+}
